@@ -33,7 +33,6 @@
         let list = document.createElement('ul');
         list.classList.add('list-group');
         return list;
-
     }
 
     function createTodoItem(name){
@@ -95,15 +94,9 @@
 
             todoItemForm.input.value = ''
         })
-
     }
 
-    document.addEventListener('DOMContentLoaded', function(){
-        createTodoApp(document.getElementById('my-todos'), 'Мои дела');
-        createTodoApp(document.getElementById('dad-todos'), 'Дела папы');
-        createTodoApp(document.getElementById('mom-todos'), 'Дела мамы');
-
-});
+    window.createTodoApp = createTodoApp;
 
 })();
 
