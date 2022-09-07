@@ -1,0 +1,1 @@
+todoApp was made by using JS. it was made with purpose to repeat work with DOM and JS.
